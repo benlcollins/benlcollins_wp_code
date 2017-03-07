@@ -1,0 +1,375 @@
+@import  "http://fonts.googleapis.com/css?family=Fredoka+One";
+
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+.promotionBox {
+	width: 100%;
+	height: 360px;
+	background: #fff;
+  border:5px solid #0F9D58;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.codewrapper {
+	background: #f5f5f5;
+	margin: 0 0 20px 5px;
+	padding: 7px 7px 7px 12px;
+	border-left: 3px solid #ff4d4d;
+	font-family: monospace, serif;
+	font-size: 13px;
+}
+
+.codewrapper2 {
+	background: #f5f5f5;
+	margin: 0 0 20px 5px;
+	padding: 7px 7px 7px 12px;
+	border-left: 3px solid #ff4d4d;
+	font-family: monospace, serif;
+	font-size: 20px;
+}
+
+.codewrapper3 {
+	background: #f5f5f5;
+	margin: 0 0 20px 5px;
+	padding: 10px 10px 10px 15px;
+	border-left: 10px solid #dcdcdc;
+	font-size: 24px;
+}
+
+.container {
+	margin-right: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.logo_grid {
+	clear: both;
+}
+
+.logo_style_blue {
+	text-decoration: none;
+	background-color: #08699D;
+	color: #fff;
+	font: 48px/64px "Fredoka One", Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .14em #08699D;
+/* padding: 10px 0 0 10px; */
+/* to fine tune letter position */
+}
+
+.logo_style_orange {
+	background-color: #F75F00;
+	color: white;
+	font: 48px/64px "Fredoka One", Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .14em #F75F00;
+/* padding: 10px 0 0 10px; */
+/* to fine tune letter position */
+}
+
+.logo_style_green {
+	background-color: #2FAC1C;
+	color: white;
+	font: 48px/64px "Fredoka One", Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .13em #2FAC1C;
+/* padding: 10px 0 0 10px; */
+/* to fine tune letter position */
+}
+
+.logo_style_blue_halfway1 {
+	text-decoration: none;
+	background-color: blue;
+	color: #fff;
+	font: 48px/64px Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+}
+
+.logo_style_blue_halfway2 {
+	text-decoration: none;
+	background-color: blue;
+	color: #fff;
+	font: 48px/64px Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 .14em blue;
+}
+
+/* styles for the geckoboard pie chart post */
+.mp-ct {
+	margin: 1em auto;
+	width: 200px;
+	height: 200px;
+}
+
+.mp-ct2 {
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+.two-pie-ct {
+	margin: 1em auto;
+	width: 400px;
+	height: 250px;
+}
+
+.mp {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	clip: rect(0px,100px,200px,0px);
+}
+
+.hold {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	clip: rect(0px,200px,200px,100px);
+}
+
+.mp-bg1 {
+	width: 100%;
+	height: 100%;
+	border: 1px dashed black;
+}
+
+.hold-right1 {
+	width: 50%;
+	height: 100%;
+	margin-left: 50%;
+	border-left: 1px dashed black;
+}
+
+.mp-bg2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 1px dashed black;
+}
+
+.mp-bg3 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.hold-right2 {
+	background-color: #5DA5DA;
+	width: 50%;
+	height: 100%;
+	margin-left: 50%;
+	border-radius: 0 100% 100% 0 / 50%;
+	border-left: 1px dashed black;
+}
+
+.hold-right3 {
+	background-color: #5DA5DA;
+	width: 50%;
+	height: 100%;
+	margin-left: 50%;
+	border-radius: 0 100% 100% 0 / 50%;
+}
+
+.color-red {
+	background-color: #F15854;
+}
+
+.color-blue {
+	background-color: #5DA5DA;
+}
+
+.color-orange {
+	background-color: #FAA43A;
+}
+
+.color-yellow {
+	background-color: #DECF3F;
+}
+
+.color-green {
+	background-color: #60BD68;
+}
+
+.color-white {
+	background-color: white;
+}
+
+/*rotations*/
+.rt_30 {
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+
+.rt_40 {
+	-webkit-transform: rotate(40deg);
+	-moz-transform: rotate(40deg);
+	-ms-transform: rotate(40deg);
+	transform: rotate(40deg);
+}
+
+.rt_70 {
+	-webkit-transform: rotate(70deg);
+	-moz-transform: rotate(70deg);
+	-ms-transform: rotate(70deg);
+	transform: rotate(70deg);
+}
+
+.rt_80 {
+	-webkit-transform: rotate(80deg);
+	-moz-transform: rotate(80deg);
+	-ms-transform: rotate(80deg);
+	transform: rotate(80deg);
+}
+
+.rt_100 {
+	-webkit-transform: rotate(100deg);
+	-moz-transform: rotate(100deg);
+	-ms-transform: rotate(100deg);
+	transform: rotate(100deg);
+}
+
+.rt_110 {
+	-webkit-transform: rotate(110deg);
+	-moz-transform: rotate(110deg);
+	-ms-transform: rotate(110deg);
+	transform: rotate(110deg);
+}
+
+.rt_120 {
+	-webkit-transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	transform: rotate(120deg);
+}
+
+.rt_140 {
+	-webkit-transform: rotate(140deg);
+	-moz-transform: rotate(140deg);
+	-ms-transform: rotate(140deg);
+	transform: rotate(140deg);
+}
+
+.rt_150 {
+	-webkit-transform: rotate(150deg);
+	-moz-transform: rotate(150deg);
+	-ms-transform: rotate(150deg);
+	transform: rotate(150deg);
+}
+
+.rt_180 {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.rt_200 {
+	-webkit-transform: rotate(200deg);
+	-moz-transform: rotate(200deg);
+	-ms-transform: rotate(200deg);
+	transform: rotate(200deg);
+}
+
+.rt_220 {
+	-webkit-transform: rotate(220deg);
+	-moz-transform: rotate(220deg);
+	-ms-transform: rotate(220deg);
+	transform: rotate(220deg);
+}
+
+.rt_240 {
+	-webkit-transform: rotate(240deg);
+	-moz-transform: rotate(240deg);
+	-ms-transform: rotate(240deg);
+	transform: rotate(240deg);
+}
+
+/* styles for flash notice at top of posts */
+.notice {
+	font: 14px/18px helvetica, arial, verdana;
+	letter-spacing: .1em;
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	text-decoration: none !important;
+	border-radius: .5rem;
+	background-color: #49bb5b;
+	border: 1px solid #2B823A;
+}
+
+.notice a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#mch6 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+#mc_embed_signup .button {
+	background-color: #24b36b !important;
+}
+
+#mce-EMAIL {
+	text-align: center !important;
+}
+
+table#table_books {
+	width: 100%;
+}
+
+table#table_books, td, tr {
+	border: none;
+}
+
+table#table_data {
+	width: 100%;
+}
+
+table#table_data, td, tr {
+	border: 1px solid #d3d3d3;
+}
+
+#table_data td, tr {
+	padding: 8px;
+}
+
+.text-red {
+	color: #F15854;
+}
