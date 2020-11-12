@@ -1,4 +1,4 @@
-@import  "http://fonts.googleapis.com/css?family=Fredoka+One";
+@import  "https://fonts.googleapis.com/css?family=Fredoka+One";
 
 /*
 Welcome to Custom CSS!
@@ -41,9 +41,37 @@ your theme's stylesheet content.
 
 .codewrapper3 {
 	background: #f5f5f5;
-	margin: 0 0 20px 5px;
-	padding: 10px 10px 10px 15px;
-	border-left: 10px solid #dcdcdc;
+	margin: 0 0 30px 5px;
+	padding: 10px 15px 10px 15px;
+	border: 2px solid #dcdcdc;
+	font-size: 24px;
+	font-family: inconsolata, sans-serif;
+	word-wrap: break-word;
+}
+
+.codewrapper4 {
+	background: #f5f5f5;
+	margin: 0 0 30px 5px;
+	padding: 10px 15px 10px 15px;
+	border: 2px solid #dcdcdc;
+	font-size: 18px;
+	font-family: inconsolata, sans-serif;
+	word-wrap: break-word;
+}
+
+.codewrapper5 {
+	background: #f5f5f5;
+	margin: 0 0 5px 5px;
+	padding: 2px;
+	border: 2px solid #dcdcdc;
+	font-family: inconsolata, sans-serif;
+	word-wrap: break-word;
+}
+
+.codewrapperNoBorder {
+	background: #f5f5f5;
+	margin: 0 0 30px 5px;
+	padding: 10px 15px 10px 15px;
 	font-size: 24px;
 }
 
@@ -337,6 +365,56 @@ your theme's stylesheet content.
 	text-decoration: underline;
 }
 
+.noticeYellow {
+	font: 20px/32px verdana;
+	letter-spacing: .05em;
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none !important;
+	border-radius: .25rem;
+	background-color: #FEE2B7;
+	border: 2px solid #cbb492;
+}
+
+.noticeYellow a:hover {
+	text-decoration: underline;
+}
+
+.noticeYellowLeft {
+	font: 20px/32px verdana;
+	letter-spacing: .05em;
+	width: 100%;
+	margin: 20px auto;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none !important;
+	background-color: #FEE2B7;
+	border: 2px solid #cbb492;
+}
+
+.noticeYellowLeft a:hover {
+	text-decoration: underline;
+}
+
+.noticeYellowCenter {
+	font: 20px/24px verdana;
+	letter-spacing: .05em;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none !important;
+	border-radius: 2.5rem;
+	background-color: #FEE2B7;
+	border: 2px solid #cbb492;
+}
+
+.noticeYellowCenter a:hover {
+	text-decoration: underline;
+}
+
 #mch6 {
 	margin: 0;
 	padding: 10px 0;
@@ -347,7 +425,7 @@ your theme's stylesheet content.
 }
 
 #mce-EMAIL {
-	text-align: center !important;
+	text-align: left;
 }
 
 table#table_books {
@@ -372,4 +450,112 @@ table#table_data, td, tr {
 
 .text-red {
 	color: #F15854;
+}
+
+.note-link {
+	font-size: 18px;
+	line-height: 24px;
+	position: relative;
+	padding: 14px 20px 24px 20px;
+	margin: 32px 0;
+	background-color: rgba(255,202,0,0.05);
+	border: solid 2px #ffca00;
+	border-radius: 12px;
+	clear: both;
+}
+
+.note-link-title {
+	font-size: 18px;
+	line-height: 24px;
+	color: #868F93;
+	padding-bottom: 8px;
+}
+
+.note-link-a {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+
+body {font-family:'Open Sans', Helvetica, arial, sans-serif}
+
+.related-articles {
+	display: block;
+	clear:both;
+	object-fit: contain;
+}
+
+.codeLinePadding {
+	line-height: 2em !important;
+	background-color: #e0e0e0 !important;
+	padding: 10px;
+}
+
+/* custom styles for the custom number format post */
+#customNumberFormat {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customNumberFormat td, #customNumberFormat th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#customNumberFormat tr:nth-child(even){background-color: #f2f2f2;}
+
+#customNumberFormat tr:hover {background-color: #ddd;}
+
+#customNumberFormat th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #0F9E59;
+  color: white;
+}
+
+pre{                     
+	background:#f5f5f5;
+	border:1px #eee solid;
+	border-left:6px #eee solid;
+	font-family:Consolas, courier;   
+	font-size:0.9em;        
+	white-space:pre;
+	overflow-x:auto;
+}
+
+.exerciseHighlight {
+	padding: 5px 5px 5px 10px;
+	margin-bottom: 1em;
+	background-color: #1A72E8;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	border-left: 15px #0d3974 solid;
+}
+
+.exerciseBox {
+	border: 2px #0d3974 dashed;
+	padding: 15px 10px 5px 10px;
+	margin: 35px 0px 30px 0px;
+}
+
+.exerciseHighlightSheets {
+	padding: 5px 5px 5px 10px;
+	margin-bottom: 1em;
+	background-color: #54a06b;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	border-left: 15px #2A8947 solid;
+}
+
+.exerciseBoxSheets {
+	border: 2px #2A8947 dashed;
+	padding: 15px 10px 5px 10px;
+	margin: 35px 0px 30px 0px;
 }
